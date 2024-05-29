@@ -1,7 +1,10 @@
 {
   "name": "teacher-backend",
   "version": "0.0.0",
-  "private": true,
+  "main":"app.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "node app.js"
   },
@@ -14,10 +17,10 @@
     "morgan": "~1.9.1",
     "nodemon": "^3.1.1"
   },
-
   "main": "app.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {},
   "description": ""
 }
