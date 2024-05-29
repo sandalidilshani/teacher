@@ -1,7 +1,7 @@
 var express=require('express')
 var router=express.Router()
 
-const Data={
+const data={
     "headerData":"Video in Live Action",
     "details":"Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics "
 }
@@ -10,7 +10,7 @@ const Data={
 
 
 router.get("/",  (req, res )=> {
-    res.json(Data);
+    res.json(data);
     
 })
 

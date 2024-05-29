@@ -4,28 +4,26 @@ const app = express();
 const port = 3020;
 
 
-app.get('/',(req,res)=>{
-    res.send("hey , this is your teacher")
-})
+
 const headerContainer = require('./routes/headerContainer');
 app.use('/headercontainer', headerContainer);
 
-const adorablepckg = require('./routes/packages');
-app.use('/adorablepckg', adorablepckg);
+const adorable_package = require('./routes/adorable_package');
+app.use('/adorable_package', adorable_package);
 
 const videoData = require('./routes/video');
-app.use('/videodata', videoData);
+app.use('/video', videoData);
 
-const coursepckg = require('./routes/coursepckg');
+const coursepckg = require('./routes/course_package');
 app.use('/coursepckg', coursepckg);
 
-const test = require('./routes/Test');
-app.use('/test', test);
+const testimonial = require('./routes/testimonial');
+app.use('/testimonial', testimonial);
 
 const team = require('./routes/team');
 app.use('/team', team);
 
-const footer = require('./routes/Footer');
+const footer = require('./routes/footer');
 app.use('/footer', footer);
 
 app.listen(port, (error) => { 

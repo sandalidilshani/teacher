@@ -2,15 +2,15 @@ const express = require('express');
 const router = express.Router();
 
 const data ={
-  "Team":[
+  "team":[
      {
-        "Name":"Certified Teacher",
-        "Role":"Designer",
+        "name":"Certified Teacher",
+        "role":"Designer",
         "description":"Slate helps you see how many more days you need to work to reach your financial goal for the month and year. "
      },
      {
-      "Name":"Certified Teacher",
-      "Role":"Designer",
+      "name":"Certified Teacher",
+      "role":"Designer",
       "description":"Slate helps you see how many more days you need to work to reach your financial goal for the month and year. "
      }
   ],

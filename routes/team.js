@@ -4,7 +4,7 @@ var router = express.Router();
 const team = {
     "title": 'Get Quality Education',
     "description": 'Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics',
-    "Team": [
+    "team": [
         {
             "name": 'Julian Jameson',
             "profession": 'Profession',
