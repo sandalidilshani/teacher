@@ -1,25 +1,25 @@
 var express=require('express')
 var router=express.Router()
 
-const AdorablepckgData=[
-    {
-        headerData:['Approdable Packages','Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics ','Learn More'],
-        package01:{
-            title:'Certified Teacher',
-            content:'The gradual accumulation of information about ',
+const data ={
+    "Approdable Packages":[
+       {
+          "packageName":"Certified Teacher",
+          "description":"The gradual accumulation of information about "
+       },
+       {
+          "packageName":"Expert instruction",
+          "description":"The gradual accumulation of information about "
+       }
+    ],
+    "title":"Approdable Packages",
+    "description":"Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics  "
+ }
 
-        },
-        package02:{
-            title:'Expert instruction',
-            content:'The gradual accumulation of information about '
-        }
-    }
-]
 
-
-router.get("/pckgData",  (req, res )=> {
-    res.json(AdorablepckgData);
-    next()
+router.get("/",  (req, res )=> {
+    res.json(data);
+    
 })
 
 module.exports=router;

@@ -2,32 +2,32 @@
 var express = require("express");
 var router = express.Router();
 const team = {
-    title: 'Get Quality Education',
-    description: 'Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics',
-    cards: [
+    "title": 'Get Quality Education',
+    "description": 'Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics',
+    "Team": [
         {
-            name: 'Julian Jameson',
-            profession: 'Profession',
-            imageUrl: '',
-            social: ['facebook', 'instagram', 'twitter']
+            "name": 'Julian Jameson',
+            "profession": 'Profession',
+            "imageUrl": '',
+            "social": ['facebook', 'instagram', 'twitter']
         },
         {
-            name: 'Julian Jameson',
-            profession: 'Profession',
-            imageUrl: '',
-            social: ['facebook', 'instagram', 'twitter']
+            "name": 'Julian Jameson',
+            "profession": 'Profession',
+            "imageUrl": '',
+            "social": ['facebook', 'instagram', 'twitter']
         },
         {
-            name: 'Julian Jameson',
-            profession: 'Profession',
-            imageUrl: '',
-            social: ['facebook', 'instagram', 'twitter']
+            "name": 'Julian Jameson',
+            "profession": 'Profession',
+            "imageUrl": '',
+            "social": ['facebook', 'instagram', 'twitter']
         },
         {
-            name: 'Julian Jameson',
-            profession: 'Profession',
-            imageUrl: '',
-            social: ['facebook', 'instagram', 'twitter']
+            "name": 'Julian Jameson',
+            "profession": 'Profession',
+            "imageUrl": '',
+            "social": ['facebook', 'instagram', 'twitter']
         }
     ]
 };
